@@ -148,6 +148,10 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://dhanraj-production-fe7a.up.railway.app',
+    'https://dhanraj-production-1ab2.up.railway.app',
+]
 
 
 STATIC_URL = '/static/'
